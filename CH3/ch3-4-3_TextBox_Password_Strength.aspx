@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
     <div>
     密碼強度範例<br />
-        請輸入文字、數字、符號<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+        請輸入文字、數字、符號<asp:TextBox ID="TextBox1" runat="server" AutoPostBack="True" OnTextChanged="TextBox1_TextChanged"></asp:TextBox><br />
         (AutoPostBack=true)<br />
         <br /><br />
         請輸入姓名：<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
